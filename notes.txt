@@ -1,0 +1,7 @@
+Dashboard 
+  - Grid
+    - Mobile - 1 column
+    - Desktop - 2 rows 4 columns
+	-> DashboardAvatar
+	-> Dashboard
+
