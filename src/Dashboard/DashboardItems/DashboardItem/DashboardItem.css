@@ -1,0 +1,13 @@
+.Dashboard-item
+{
+    background-color: orange;
+    /*   padding: 1em; */
+    padding-top: 2em;
+}
+
+.Dashboard-item-inner
+{
+    background-color: navy;
+    color: white;
+    padding: 1em;
+}

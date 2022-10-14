@@ -4,7 +4,7 @@ import './DashboardItems.css'
 export default function DashboardItems()
 {
   return (
-    <div className='items-grid'>
+    <div className='Dashboard-items-grid'>
       <DashboardItem />
       <DashboardItem />
       <DashboardItem />

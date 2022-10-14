@@ -1,3 +1,8 @@
+*
+{
+  box-sizing: border-box;
+}
+
 html,
 body
 {
@@ -48,4 +53,34 @@ code
 {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.flex
+{
+  display: flex;
+}
+
+.align-items-center
+{
+  align-items: center;
+}
+
+.justify-space-evenly
+{
+  justify-content: space-evenly;
+}
+
+.justify-space-between
+{
+  justify-content: space-between;
+}
+
+.rounded-corners
+{
+  border-radius: 16px;
+}
+
+.rounded
+{
+  border-radius: 50%;
 }

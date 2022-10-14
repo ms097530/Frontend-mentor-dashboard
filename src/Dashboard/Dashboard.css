@@ -1,6 +1,22 @@
 .Dashboard
 {
-    max-width: 750px;
-    background-color: salmon;
-    text-align: center;
+    /* this will change on larger screens */
+    max-width: 350px;
+    display: grid;
+    gap: 1rem;
+    margin-block: 2rem;
+    /* text-align: center; */
+}
+
+.Dashboard-panel
+{
+    min-width: 300px;
+}
+
+@media (min-width: var(--desktop-width))
+{
+    .Dashboard
+    {
+        max-width: 1350px;
+    }
 }
