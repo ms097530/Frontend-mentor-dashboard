@@ -26,7 +26,7 @@ body
 
   /* miscellaneous blues */
   --blue: hsl(246, 80%, 60%);
-  --dark-blue: hsl(226, 43%, 10%);
+  --dark-blue: hsl(235, 46%, 20%);
   --very-dark-blue: hsl(226, 43%, 10%);
   --desaturated-blue: hsl(235, 45%, 61%);
   --pale-blue: hsl(236, 100%, 87%);
@@ -47,6 +47,7 @@ body
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: var(--main-font-family);
 }
 
 code
@@ -83,4 +84,85 @@ code
 .rounded
 {
   border-radius: 50%;
+}
+
+.opacity-light
+{
+  opacity: 0.5;
+}
+
+.opacity-md
+{
+  opacity: 0.75;
+}
+
+.weight-light
+{
+  font-weight: var(--light-weight);
+}
+
+.weight-md
+{
+  font-weight: var(--medium-weight);
+}
+
+.weight-hvy
+{
+  font-weight: var(--heavy-weight);
+}
+
+.weight-bold
+{
+  font-weight: bold;
+}
+
+.hoverable
+{
+  cursor: pointer;
+}
+
+.spacing-1
+{
+  letter-spacing: 1px;
+}
+
+.m-block-0
+{
+  margin-block: 0;
+}
+
+.m-block-1
+{
+  margin-block: 0.3em;
+}
+
+@media (min-width: 1440px)
+{
+  .ms-3
+  {
+    margin-inline-start: 1.5rem;
+  }
+
+  .mt-3-xl
+  {
+    margin-block-start: 1.5rem;
+  }
+
+  .mb-3-xl
+  {
+    margin-block-end: 1.5rem;
+  }
+
+  .font-big-xl
+  {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 1440px)
+{
+  .flex-max-1440
+  {
+    display: flex;
+  }
 }

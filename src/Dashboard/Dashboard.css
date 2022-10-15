@@ -5,6 +5,7 @@
     display: grid;
     gap: 1rem;
     margin-block: 2rem;
+
     /* text-align: center; */
 }
 
@@ -13,10 +14,12 @@
     min-width: 300px;
 }
 
-@media (min-width: var(--desktop-width))
+@media (min-width: 1440px)
 {
     .Dashboard
     {
         max-width: 1350px;
+        grid-template-columns: repeat(2, min-content);
+        justify-content: space-evenly;
     }
 }

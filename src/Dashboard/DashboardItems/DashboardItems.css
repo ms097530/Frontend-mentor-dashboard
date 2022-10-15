@@ -2,4 +2,13 @@
 {
     display: grid;
     gap: 1rem;
+
+}
+
+@media (min-width: 1440px)
+{
+    .Dashboard-items-grid
+    {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
