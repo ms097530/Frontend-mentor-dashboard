@@ -4,41 +4,23 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Frontend Mentor - Time tracking dashboard solution](#frontend-mentor---time-tracking-dashboard-solution)
+  - [Table of contents](#table-of-contents)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+  - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
-## Overview
 
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Switch between viewing Daily, Weekly, and Monthly stats
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./frontend-mentor-dashboard.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
@@ -46,6 +28,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+
+First, I mapped out where I wanted data to reside in my components and how I wanted data to flow. While I'm not using live data, the data flow is intended to work as if I am fetching actual data (i.e. from Dashboard down to DashboardAvatar).
+
+Second, I approached the layout using a mobile-first perspective. Much of the mobile layout makes use of the default styling, at least for the panels themselves. The inner parts of the panels did require a bit of CSS for more accurate styling. The desktop layout makes use of an outer grid to divie the longer avatar panel and the group of activity panels. The avatar group is then made into its own grid.
+
 
 ### Built with
 
@@ -62,18 +49,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 This project helped me reinforce my overall structuring of my CSS as well as CSS in React. I think I was able to maintain a good seperation of global CSS in index.css (utility/baseline styling) and component specific styling.
 
 
-
-
-
 ## Author
 
 - Website - [Michael Schultz](https://mschultz-portfolio.herokuapp.com/)
 - Frontend Mentor - [@ms097530](https://www.frontendmentor.io/profile/ms097530)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
