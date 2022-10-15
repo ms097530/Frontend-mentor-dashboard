@@ -2,6 +2,11 @@ import './DashboardAvatar.css'
 
 export default function DashboardAvatar({ avatarSrc, username })
 {
+    function toggleOpacity(e)
+    {
+        e.target.classList.toggle('opacity-light');
+    }
+
     return (
         <div className="Dashboard-avatar-panel Dashboard-panel rounded-corners">
             <div className="Dashboard-avatar-header flex-max-1440 align-items-center rounded-corners">
@@ -12,9 +17,9 @@ export default function DashboardAvatar({ avatarSrc, username })
                 </div>
             </div>
             <div className="flex-max-1440 justify-space-evenly ms-3">
-                <p className="opacity-light weight-light">Daily</p>
-                <p className="weight-light">Weekly</p>
-                <p className="opacity-light weight-light">Monthly</p>
+                <p className="hoverable opacity-light weight-light" onMouseEnter={toggleOpacity} onMouseLeave={toggleOpacity}>Daily</p>
+                <p className="hoverable weight-light">Weekly</p>
+                <p className="hoverable opacity-light weight-light" onMouseEnter={toggleOpacity} onMouseLeave={toggleOpacity}>Monthly</p>
             </div>
         </div>
     )
