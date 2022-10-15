@@ -13,7 +13,7 @@ export default function DashboardItem({ activityType, icon, currTime, prevTime }
         </div>
         <div className="flex-max-1440 justify-space-between align-items-center">
           <h2 className='weight-light Dashboard-item-curr m-block-1 mt-3-xl'>{currTime}hrs</h2>
-          <h5 className='opacity-light spacing-1 weight-md m-block-1'>Last Week - {prevTime}hrs</h5>
+          <h5 className='opacity-md spacing-1 weight-md m-block-1'>Last Week - {prevTime}hrs</h5>
         </div>
       </div>
     </div>

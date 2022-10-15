@@ -23,7 +23,7 @@
 {
     background-color: var(--dark-blue);
     color: white;
-    padding: 1em;
+    padding: 2em;
     height: 100%;
 }
 
@@ -75,6 +75,6 @@
 {
     .Dashboard-item-curr
     {
-        font-size: 40px;
+        font-size: 48px;
     }
 }
