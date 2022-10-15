@@ -10,7 +10,7 @@ export default function DashboardAvatar({ avatarSrc, username })
     return (
         <div className="Dashboard-avatar-panel Dashboard-panel rounded-corners">
             <div className="Dashboard-avatar-header flex-max-1440 align-items-center rounded-corners">
-                <img className="avatar-img rounded mb-3-xl" src={avatarSrc} alt="avatar" width="64px" height="64px" />
+                <img className="avatar-img rounded mb-3-xl" src={avatarSrc} alt="avatar" width="64" height="64" />
                 <div>
                     <h6 className="Dashboard-avatar-preface opacity-light spacing-1 m-block-1 weight-light ">Report for</h6>
                     <h3 className="weight-light spacing-1 m-block-1 font-big-xl">{username}</h3>
