@@ -16,10 +16,11 @@ export default function DashboardAvatar({ avatarSrc, username })
                     <h3 className="weight-light spacing-1 m-block-1 font-big-xl">{username}</h3>
                 </div>
             </div>
-            <div className="flex-max-1440 justify-space-evenly ms-3">
+            <div className="Dashboard-avatar-selection flex justify-space-evenly ms-3">
                 <p className="hoverable opacity-light weight-light" onMouseEnter={toggleOpacity} onMouseLeave={toggleOpacity}>Daily</p>
                 <p className="hoverable weight-light">Weekly</p>
                 <p className="hoverable opacity-light weight-light" onMouseEnter={toggleOpacity} onMouseLeave={toggleOpacity}>Monthly</p>
+
             </div>
         </div>
     )
