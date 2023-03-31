@@ -42,7 +42,6 @@ Second, I approached the layout using a mobile-first perspective. Much of the mo
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
